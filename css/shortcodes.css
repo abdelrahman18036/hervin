@@ -513,7 +513,7 @@
 		color:#fff;
 	}
 	
-	.clapat-button-wrap {
+	.-button-wrap {
 		display: flex;
 		position: relative;
 		justify-content: center;
@@ -525,11 +525,11 @@
 		pointer-events:initial;
 	}
 	
-	.text-align-center .clapat-button-wrap {
+	.text-align-center .-button-wrap {
 		margin:0 auto;
 	}
 	
-	.clapat-button {		
+	.-button {		
 		opacity:1;		
 	}
 	
@@ -590,7 +590,7 @@
 		text-align: center;
 	}
 	
-	.clapat-button:hover .button-border span {
+	.-button:hover .button-border span {
 		-webkit-transform: translateY(-100%);
 		transform: translateY(-100%);
 		transform-origin: 0% 0%;
@@ -712,24 +712,24 @@
 		transform-origin: left;
 	}
 	
-	.clapat-icon {
+	.-icon {
 		color: #000;
 		position: relative;
 		margin-top: 15px;
 		margin-bottom: 10px;
 	}
 	
-	.clapat-icon i {
+	.-icon i {
 		position:relative;
 		margin-bottom:0px;
 		font-size:24px;
 	}
 	
-	.light-content .clapat-icon {
+	.light-content .-icon {
 		color:#fff;
 	}
 	
-	.clapat-icon:after {
+	.-icon:after {
 	  content: "";
 	  clear: both;
 	  display: table;
@@ -1215,7 +1215,7 @@
 		display:none!important;
 	}
 	
-	.text-align-center .clapat-icon {
+	.text-align-center .-icon {
 		padding-left: 0;
 	}
 	
@@ -1330,7 +1330,7 @@
 
 @media only screen and (max-width: 479px) {
 		
-	.clapat-button {
+	.-button {
     	margin-bottom: 20px;
 	}
 	
